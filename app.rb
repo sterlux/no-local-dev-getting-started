@@ -5,7 +5,7 @@ require 'sinatra/activerecord'
 require './environments'
 
 class Contact < ActiveRecord::Base
-  self.talbe_name = 'salesforce.contact'
+  self.table_name = 'salesforce.contact'
 end
 
 get "/contacts" do
